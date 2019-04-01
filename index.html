@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+    <h1>Consulta de HQ's, filmes ou livros</h1>
+    <ul>Como utilizar:
+        <ul>Primeiro deve ser criado um elemento da classe data da seguinte forma:
+            <li>exemplo = new Data(hq's, filmes, livros)</li>
+            <li>onde hq's, filmes e livros são objetos no formato json</li>
+            <li>como arquivos padrão no sistema foram criados as variaveis hqsJSON, moviesJSON e booksJSON que já contem informações sobre os três porém não é obrigatoria a sua utilização</li>
+        </ul>
+        
+        <button id='btnStart'>Selecionar request</button>
+        <div id='started'></div>
+ 
+    </ul>
+    <script src="data.js"></script>
+    <script src="request.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
